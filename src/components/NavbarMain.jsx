@@ -84,6 +84,32 @@ const NavbarMain = () => {
               Soft-skill
             </NavLink>
 
+            {/* New Resume Link */}
+            <NavLink
+              to="/resume"
+              onClick={closeMenu}
+              className={({ isActive }) =>
+                isActive
+                  ? "text-blue-700 font-semibold"
+                  : "hover:text-blue-700 transition"
+              }
+            >
+              Resume
+            </NavLink>
+
+            {/* New Hackathon Link */}
+            <NavLink
+              to="/hackathon"
+              onClick={closeMenu}
+              className={({ isActive }) =>
+                isActive
+                  ? "text-blue-700 font-semibold"
+                  : "hover:text-blue-700 transition"
+              }
+            >
+              Hackathon
+            </NavLink>
+
             {/* Login / Signup Modal Button */}
             <button
               onClick={() => {

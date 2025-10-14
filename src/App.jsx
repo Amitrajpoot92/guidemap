@@ -11,6 +11,8 @@ import Home from "./pages/Home";
 import College from "./pages/College";
 import Courses from "./pages/Courses";
 import SoftSkills from "./pages/SoftSkills";
+import Resume from "./pages/Resume";
+import Hackathon from "./pages/Hackathon";
  
 
 // Context
@@ -44,6 +46,8 @@ function App() {
             <Route path="/college" element={<College />} />
             <Route path="/courses" element={<Courses />} />
             <Route path="/softskill" element={<SoftSkills />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/hackathon" element={<Hackathon />} />
              
           </Routes>
 
