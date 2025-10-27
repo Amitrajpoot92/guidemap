@@ -135,7 +135,7 @@ const Home = () => {
           </Link>
 
           {/* 🧠 Resume Analyzer */}
-          <Link to="/resume-guidance">
+          <Link to="/resume">
             <motion.div
               whileHover={{ scale: 1.05, rotateX: 3, rotateY: 3 }}
               className={`p-8 rounded-2xl text-center shadow-lg transition-all duration-300 cursor-pointer ${cardGradient}`}
