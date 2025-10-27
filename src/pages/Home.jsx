@@ -183,7 +183,7 @@ const Home = () => {
           </Link>
 
           {/* 🏆 Hackathon Tracker */}
-          <Link to="/hackathons">
+          <Link to="/hackathon">
             <motion.div
               whileHover={{ scale: 1.05, rotateX: -3, rotateY: 3 }}
               className={`p-8 rounded-2xl text-center shadow-lg transition-all duration-300 cursor-pointer ${cardGradient}`}
